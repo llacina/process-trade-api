@@ -7,6 +7,11 @@ enum class TradeStatus {
      */
     TO_TRADE,
 
+    /**
+     * Waiting to internal trade (cache)
+     */
+    OPEN_TRADE,
+
     PENDING,
 
     /**
