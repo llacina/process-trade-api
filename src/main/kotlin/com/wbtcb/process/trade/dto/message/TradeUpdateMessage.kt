@@ -8,6 +8,7 @@ import java.util.UUID
 data class TradeUpdateMessage(
     val id: Int,
     val orderRef: UUID,
+    val channelCode: String,
     val exchangeRequestId: Int,
     val amount: BigDecimal,
     val status: TradeStatus,
