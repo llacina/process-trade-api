@@ -3,6 +3,21 @@ package com.wbtcb.process.trade.enum
 enum class TradeStatus {
 
     /**
+     * Created new trade process
+     */
+    CREATED,
+
+    /**
+     * Valid entity/message,ready to start to trade
+     */
+    VALID,
+
+    /**
+     * Invalid entity not valid entity/message
+     */
+    INVALID,
+
+    /**
      * Start trade process
      */
     TO_TRADE,
