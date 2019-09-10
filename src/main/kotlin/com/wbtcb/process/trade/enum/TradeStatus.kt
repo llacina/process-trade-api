@@ -35,6 +35,11 @@ enum class TradeStatus {
     TRADED,
 
     /**
+     * Process createMarketOrder is manually traded outside of system
+     */
+    MAN_TRADED,
+
+    /**
      *  Process is cancelled
      */
     CANCELLED,
